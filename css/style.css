@@ -34,58 +34,57 @@ h2{
 }
 
 .card{
-    position: relative;
-    top: 154px;
-    left: 32px;
     width: 300px;
     box-sizing: border-box;
     
 }
 
-.card-bottom{
+.card-head{
     position: relative;
-    top:-3px;
+    background-image: url("../img/imgBatman.png");
+    height: 193px;
+}
+
+.card-bottom{
+    padding-top: 74px;
+    text-align: center;
     height: 336px;
     background-color: #F3F3F3;
     box-sizing: border-box;
     filter: drop-shadow(0 0 4px rgb(122, 122, 122));
 }
 
-.card-text{
-    position: relative;
-    top: 78px;
-    
-}
 
-.card-text p{
-    position: relative;
-    left: 10px;
+.card-bottom p{
     padding-left: 16px;
     padding-right: 16px;
     padding-top:10px;
     box-sizing: border-box;
+    text-align: left;
  
 }
 
 .img-redonda{
+    
     position: absolute;
+    left:calc(50% - 60px);
+    top: 128px;
     border-radius: 60px;
-    left: 90px;
-    top: 148px;
     box-sizing: border-box;
     z-index: 10;
 }
 
 .like{
     position: absolute;
-    left: 21px;
-    top:16px;
+    top: 21px;
+    left: 16px;
+
+
 }
 
-.boton-card{
-    position: relative      ;
-    left: 85px;
-    top:37px;
+.boton-card{  
+    display: inline-block; 
+    margin-top: 52px; 
     font-size: 15px;
     background-color: #00669F;
     font-weight: 400px;
