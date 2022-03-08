@@ -1,12 +1,15 @@
 *{
     margin: 0;
     font-family: 'Roboto-regular', sans-serif;
+    
 }
 
 body{
     height:1024px;
     width: 1024px;
+    border: solid 1px black;
     box-sizing: border-box;
+    
 }
 
 h1{
@@ -34,14 +37,15 @@ h2{
 }
 
 .card{
+    display: inline-block; 
     width: 300px;
     box-sizing: border-box;
+    margin-left: 29px;
     
 }
 
 .card-head{
     position: relative;
-    background-image: url("../img/imgBatman.png");
     height: 193px;
 }
 
@@ -51,7 +55,7 @@ h2{
     height: 336px;
     background-color: #F3F3F3;
     box-sizing: border-box;
-    filter: drop-shadow(0 0 4px rgb(122, 122, 122));
+    filter: drop-shadow(0 0 4px rgb(0, 0, 0.25));
 }
 
 
@@ -64,8 +68,7 @@ h2{
  
 }
 
-.img-redonda{
-    
+.img-redonda{ 
     position: absolute;
     left:calc(50% - 60px);
     top: 128px;
@@ -78,16 +81,26 @@ h2{
     position: absolute;
     top: 21px;
     left: 16px;
-
-
 }
 
 .boton-card{  
     display: inline-block; 
-    margin-top: 52px; 
+    margin-top: 49px; 
     font-size: 15px;
     background-color: #00669F;
     font-weight: 400px;
     padding: 15px 37px 15px 37px;
     color:#F3F3F3;  
+}
+
+.cards{
+    margin-top: 154px;
+}
+
+footer{
+    
+    background-color: #00669F;
+    color:#F3F3F3; 
+    padding:16px;
+    margin-top: 167px; 
 }
