@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    font-family: 'Roboto-regular', sans-serif;
+}
+
+body{
+    height:1024px;
+    width: 1024px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: 400px;
+}
+
+h2{
+    text-align: center;
+    font-weight: 400;
+    
+}
+.cabezeraDescuentos{
+    background-color: #1CD1B0;
+    padding: 10px;
+    
+}
+
+.header{
+    margin-bottom:50px;
+    box-sizing: border-box;
+}
+.tituloHeroes{
+    background-color:#00669F;
+    padding: 28px;
+}
+
+.card{
+    position: relative;
+    top: 154px;
+    left: 32px;
+    width: 300px;
+    box-sizing: border-box;
+    
+}
+
+.card-bottom{
+    position: relative;
+    top:-3px;
+    height: 336px;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    filter: drop-shadow(0 0 4px rgb(122, 122, 122));
+}
+
+.card-text{
+    position: relative;
+    top: 78px;
+    
+}
+
+.card-text p{
+    position: relative;
+    left: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top:10px;
+    box-sizing: border-box;
+ 
+}
+
+.img-redonda{
+    position: absolute;
+    border-radius: 60px;
+    left: 90px;
+    top: 148px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.like{
+    position: absolute;
+    left: 21px;
+    top:16px;
+}
+
+.boton-card{
+    position: relative      ;
+    left: 85px;
+    top:37px;
+    font-size: 15px;
+    background-color: #00669F;
+    font-weight: 400px;
+    padding: 15px 37px 15px 37px;
+    color:#F3F3F3;  
+}
