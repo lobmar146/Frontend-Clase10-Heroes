@@ -6,7 +6,7 @@
 
 body{
     height:1024px;
-    width: 1024px;
+
     border: solid 1px black;
     box-sizing: border-box;
     
@@ -37,7 +37,6 @@ h2{
 }
 
 .card{
-    display: inline-block; 
     width: 300px;
     box-sizing: border-box;
     margin-left: 29px;
@@ -46,6 +45,7 @@ h2{
 
 .card-head{
     position: relative;
+
     height: 193px;
 }
 
@@ -95,6 +95,9 @@ h2{
 
 .cards{
     margin-top: 154px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
 }
 
 footer{
