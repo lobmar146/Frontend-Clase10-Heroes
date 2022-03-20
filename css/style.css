@@ -34,6 +34,7 @@ h2{
 }
 
 .card{
+    padding-top: 20px;
     width: 300px;
     box-sizing: border-box;
     margin-left: 29px;
@@ -49,7 +50,7 @@ h2{
 .card-bottom{
     padding-top: 74px;
     text-align: center;
-    height: 336px;
+    height: 372px;
     background-color: #F3F3F3;
     box-sizing: border-box;
     filter: drop-shadow(0 0 4px rgb(0, 0, 0.25));
@@ -57,12 +58,16 @@ h2{
 
 
 .card-bottom p{
+
     padding-left: 16px;
     padding-right: 16px;
     padding-top:10px;
     box-sizing: border-box;
     text-align: left;
- 
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp:9;
+    -webkit-box-orient: vertical;
 }
 
 .img-redonda{ 
@@ -72,8 +77,16 @@ h2{
     border-radius: 60px;
     box-sizing: border-box;
     z-index: 10;
+    height: 120px;
+    width: 120px;
 }
 
+.img-fondo{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 193px;
+    width: 300px;
+}
 .like{
     position: absolute;
     top: 21px;
@@ -82,7 +95,7 @@ h2{
 
 .boton-card{  
     display: inline-block; 
-    margin-top: 49px; 
+    margin-top: 32px; 
     font-size: 15px;
     background-color: #00669F;
     font-weight: 400px;
