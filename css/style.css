@@ -82,6 +82,7 @@ h2{
 }
 
 .img-fondo{
+    display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 193px;
@@ -107,6 +108,7 @@ h2{
     margin-top: 154px;
     display: flex;
     flex-direction: row ;
+    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
