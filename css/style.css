@@ -116,7 +116,9 @@ body{
 }
 
 h1{
-    font-weight: 400px;
+    padding-left:20px;
+    color: white;
+    font-size: 30px;
 }
 
 h2{
@@ -135,10 +137,24 @@ h2{
     box-sizing: border-box;
 }
 .tituloHeroes{
+    height: 80px;
+    display: flex;
+    align-items: center;
     background-color:#00669F;
     padding: 28px;
 }
 
+header nav{
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+    background-color: #001D2D;
+    color: white;
+}
 .card{
     padding-top: 20px;
     width: 300px;
@@ -221,6 +237,7 @@ h2{
 }
 
 footer{
+    text-align: center;
     
     background-color: #00669F;
     color:#F3F3F3; 
