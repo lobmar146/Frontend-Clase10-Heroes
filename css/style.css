@@ -278,6 +278,9 @@ footer{
         flex-direction: column;
         gap: 20px;
     }  
+    p .campo-formulario{
+        font-size: 6px;
+    }
 
 }
 
@@ -290,6 +293,8 @@ footer{
         align-items: center;
         gap: 20px;
     }
-
+    p .campo-formulario{
+        font-size: 8px;
+    }
     }
 
