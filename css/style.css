@@ -1,8 +1,113 @@
 *{
     margin: 0;
     font-family: 'Roboto-regular', sans-serif;
-    
+    box-sizing: border-box;
+
+/* crearHeroe.html */
 }
+form {
+    margin-top: 40px;
+    background-color:#00669F;
+    height:832px;
+    width:954px;
+    border-radius: 50px;
+}
+
+.formularios{
+    font-family: 'Inter ', sans-serif;
+    font-family: inter;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo-crear-heroe{
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    flex-wrap: wrap;
+} 
+
+.text-formulario{
+
+    width:343px;
+    height:63px;
+    border-radius: 16px;
+    
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.column {
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+}
+.file-formulario{
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.campo-formulario{
+    margin-bottom: 15px;
+    color: white;
+   
+    font-size: 20px;
+}
+
+
+textarea{
+    width:343px;
+    height:307px;
+    border-radius: 16px;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.checkbox {
+    font-family: 'Karla', sans-serif !important;
+    color: white;
+    margin-bottom: 15px;
+    size: 80px;
+}
+form #file::--webkit-file-upload-button{
+    background-color: gray;
+}
+.check {
+    width : 20px;
+    height : 20px;
+}
+button{
+    font-family:'Inter', sans-serif !important;
+    width: 466px;
+    height: 87px;
+    text-align: center;
+    background-color: #1CD1B0;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 24px;
+}
+
+hr{
+    color: white;
+    width: 343px;
+    margin-bottom: 21px;
+}
+/* Index.html */
 
 body{
     height:100vh
@@ -47,13 +152,12 @@ h2{
     height: 193px;
 }
 
-.card-bottom{
+.card-bottom {
     padding-top: 74px;
     text-align: center;
     height: 372px;
     background-color: #F3F3F3;
     box-sizing: border-box;
-    filter: drop-shadow(0 0 4px rgb(0, 0, 0.25));
 }
 
 
@@ -111,6 +215,8 @@ h2{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    filter: drop-shadow(0 0 4px rgb(0, 0, 0.25));
+
 }
 
 footer{
@@ -121,12 +227,13 @@ footer{
     margin-top: 167px; 
 }
 
+/* MediasQueries.html */
 @media (max-width: 460px){
     .cards{
         display: flex;
         flex-direction: column;
         gap: 20px;
-    }
+    }  
 
 }
 

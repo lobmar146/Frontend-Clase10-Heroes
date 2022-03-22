@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet"> 
+    <title>Super heroes</title>
+</head>
+<body>
+    <header>
+        <p class="cabezeraDescuentos">Descuentos 20%</p>
+        <h1 class="tituloHeroes">Heroes</h1>
+    </header>
+    <main>
+        <!-- Seccion del formulario -->
+        <section class="formularios">
+            <!-- Formulario -->
+            <form action="/views/resultado.html" method="post">
+                <!-- Titulo -->
+                <h2 class="titulo-crear-heroe"> Añadí tu super!</h2>
+                <!--Subtitulo -->
+                <p class="campo-formulario">Agregá tu personaje favorito completando las opciones.</p>
+                
+                <!-- Division en dos columnas -->
+                <div class="row">
+                    <!-- Columna 1 -->
+                    <div class="column">
+                        <label for="nombre" class="campo-formulario">*Nombre</label>
+                        <input type="text" name="name" class="text-formulario" required>
+                        <label for="fecha" class="campo-formulario">Fecha</label>
+                        <input type="date" name="fecha" id="fecha" class="text-formulario">
+                        <textarea name="descripcion" id="descripcion" cols="41  " rows="10" placeholder="Descripcion"></textarea>
+                    </div>
+                    <div class="column">
+                        <!-- Columna2 -->
+                        <label for="Especie" class="campo-formulario">*Especie</label>
+                        <input type="Especie" name="name" class="text-formulario" required>
+                        <label for="foto" class="campo-formulario">Foto</label>
+                        <input id="file" class="file-formulario" type="file" name="foto" id="foto">
+                        <!-- Checkbox -->
+                        <label for="poderes-txt" class="campo-formulario">Poderes</label>
+                        <!-- Checkboxes -->
+                        <label class="checkbox"for="poderes">
+                            <input class="check" type="checkbox" name="poderes" id="poderes" value="Volar"> Volar</label>
+
+                        <label class="checkbox" for="poderes">
+                            <input class="check" type="checkbox" name="poderes" id="poderes" value="SuperInteligencia"> SuperInteligencia</label>
+
+                        <label class="checkbox" for="poderes">
+                            <input class="check" type="checkbox" name="poderes" id="poderes" value="Vistaderayoláser"> Vista de rayo láser</label>
+
+                        <label class="checkbox" for="poderes">
+                            <input class="check" type="checkbox" name="poderes" id="poderes" value="Villano / Villana"> Villano / Villana</label>
+                        <hr>
+                        <!-- Radio -->
+                        <label for="tipo-personaje" class="campo-formulario">Tipo de Personaje</label>
+                        <label class="checkbox"for="tipo-personaje">
+                            <input class="check" type="radio" name="tipo-personaje" id="tipo-personaje" value="Héroe / Heroina"> Héroe / Heroina</label>
+                        
+                        <label class="checkbox" for="tipo-personaje">
+                            <input class="check"type="radio" name="tipo-personaje" id="tipo-personaje" value="Villano / Villana"> Villano / Villana</label>
+                    </div>
+                </div> 
+                <button type="submit" >Añadir</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
