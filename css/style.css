@@ -8,7 +8,7 @@
 form {
     margin-top: 40px;
     background-color:#00669F;
-    height:832px;
+    
     width:954px;
     border-radius: 50px;
 }
@@ -100,6 +100,7 @@ button{
     font-size: 40px;
     font-weight: bold;
     border-radius: 24px;
+    margin-bottom: 20px;
 }
 
 hr{
@@ -209,7 +210,7 @@ h2{
 }
 
 .cards{
-    margin-top: 154px;
+    margin-top: 5px;
     display: flex;
     flex-direction: row ;
     align-items: center;
@@ -227,6 +228,32 @@ footer{
     margin-top: 167px; 
 }
 
+.boton-crearHeroe{
+    background: #00669F;
+    position: fixed;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 62px;
+    top: 50%;
+    right: 16px;
+    transform: translate(0, -50%);
+    transition: 0.5s;
+
+}
+.boton-crearHeroe a {
+    text-decoration: none;
+    color: white;
+}
+.boton-crearHeroe:hover{
+    background-color: #022b41;
+}
+
+
 /* MediasQueries.html */
 @media (max-width: 460px){
     .cards{
@@ -237,6 +264,7 @@ footer{
 
 }
 
+
 @media (max-width: 768px){
     .cards{
         display: flex;
@@ -245,3 +273,6 @@ footer{
         align-items: center;
         gap: 20px;
     }
+
+    }
+
